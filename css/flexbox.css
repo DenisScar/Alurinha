@@ -26,3 +26,46 @@
  .rodapePrincipal-contatoForm-fieldset {
    display: flex;
  }
+
+.rodapePrincipal-navMap-list {
+  display: flex;
+  flex-flow: column wrap;
+  height: 260px;
+}
+
+.conteudoPrincipal-cursos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+  margin: 1%;
+  width: 23%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+  margin-right: 0%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+  margin-left: 0%;
+}
+
+/*Mobile*/
+.cabecalhoPrincipal-nav {
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.cabecalhoPrincipal .container {
+  flex-direction: column;
+}
+
+.rodapePrincipal-navMap-list {
+  flex-direction: column;
+}
+
+.rodapePrincipal-navMap {
+  height: auto;
+}
